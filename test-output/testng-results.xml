@@ -2,29 +2,45 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-08T13:17:35 IST" name="Suite" finished-at="2022-09-08T13:18:34 IST" duration-ms="58523">
+  <suite started-at="2022-09-08T21:45:34 IST" name="Suite" finished-at="2022-09-08T21:46:35 IST" duration-ms="61164">
     <groups>
     </groups>
-    <test started-at="2022-09-08T13:17:35 IST" name="Test" finished-at="2022-09-08T13:18:34 IST" duration-ms="58523">
+    <test started-at="2022-09-08T21:45:34 IST" name="Test" finished-at="2022-09-08T21:46:35 IST" duration-ms="61164">
       <class name="com.qa.TestLayer.Login$LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestLayer.Login$LoginTest@795cd85e]" started-at="2022-09-08T13:17:35 IST" name="setup" finished-at="2022-09-08T13:17:50 IST" duration-ms="14289" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.TestLayer.Login$LoginTest@6572421]" started-at="2022-09-08T21:45:34 IST" name="start" finished-at="2022-09-08T21:45:34 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestLayer.Login$LoginTest@6572421]" started-at="2022-09-08T21:45:34 IST" name="setup" finished-at="2022-09-08T21:45:50 IST" duration-ms="15999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.qa.TestLayer.Login$LoginTest@795cd85e]" started-at="2022-09-08T13:17:50 IST" name="verifyLogin" finished-at="2022-09-08T13:17:55 IST" duration-ms="5224" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.qa.TestLayer.Login$LoginTest@6572421]" started-at="2022-09-08T21:45:50 IST" name="verifyLogin" finished-at="2022-09-08T21:45:55 IST" duration-ms="4980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.qa.TestLayer.Login$LoginTest@6572421]" started-at="2022-09-08T21:45:55 IST" name="end" finished-at="2022-09-08T21:45:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- com.qa.TestLayer.Login$LoginTest -->
       <class name="com.qa.TestLayer.RegisterPatientTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestLayer.RegisterPatientTest@7b9a4292]" started-at="2022-09-08T13:17:55 IST" name="setup" finished-at="2022-09-08T13:18:12 IST" duration-ms="17006" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.TestLayer.RegisterPatientTest@6c64cb25]" started-at="2022-09-08T21:45:55 IST" name="start" finished-at="2022-09-08T21:45:55 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.TestLayer.RegisterPatientTest@6c64cb25]" started-at="2022-09-08T21:45:55 IST" name="setup" finished-at="2022-09-08T21:46:11 IST" duration-ms="16098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyRegister()[pri:0, instance:com.qa.TestLayer.RegisterPatientTest@7b9a4292]" started-at="2022-09-08T13:18:12 IST" name="verifyRegister" finished-at="2022-09-08T13:18:34 IST" duration-ms="21948" status="PASS">
+        <test-method signature="verifyRegister()[pri:0, instance:com.qa.TestLayer.RegisterPatientTest@6c64cb25]" started-at="2022-09-08T21:46:11 IST" name="verifyRegister" finished-at="2022-09-08T21:46:35 IST" duration-ms="23809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegister -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.qa.TestLayer.RegisterPatientTest@6c64cb25]" started-at="2022-09-08T21:46:35 IST" name="end" finished-at="2022-09-08T21:46:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- com.qa.TestLayer.RegisterPatientTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

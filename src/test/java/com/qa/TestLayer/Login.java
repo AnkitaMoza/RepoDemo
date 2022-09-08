@@ -13,9 +13,12 @@ public class Login {
 		{
 			LoginPage page = new LoginPage();
 			page.enterUsername();
+			logger.info("userame entered");
 			page.enterPassword();
+			logger.info("password entered");
 			page.clickOnRegistratonDesk();
 	        page.clickOnLogin();
+	        logger.info("page login succesflly");
 		}
 		
 		
